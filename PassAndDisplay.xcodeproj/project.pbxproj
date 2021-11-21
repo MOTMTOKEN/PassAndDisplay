@@ -16,6 +16,8 @@
 		5C5E363A274AD298001F5248 /* PassAndDisplayTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C5E3639274AD298001F5248 /* PassAndDisplayTests.swift */; };
 		5C5E3644274AD298001F5248 /* PassAndDisplayUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C5E3643274AD298001F5248 /* PassAndDisplayUITests.swift */; };
 		5C5E3646274AD298001F5248 /* PassAndDisplayUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C5E3645274AD298001F5248 /* PassAndDisplayUITestsLaunchTests.swift */; };
+		5C5E3653274AD3BE001F5248 /* WrongViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C5E3652274AD3BE001F5248 /* WrongViewController.swift */; };
+		5C5E3655274AD3D2001F5248 /* CorrectViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C5E3654274AD3D2001F5248 /* CorrectViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +51,8 @@
 		5C5E363F274AD298001F5248 /* PassAndDisplayUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PassAndDisplayUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5C5E3643274AD298001F5248 /* PassAndDisplayUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PassAndDisplayUITests.swift; sourceTree = "<group>"; };
 		5C5E3645274AD298001F5248 /* PassAndDisplayUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PassAndDisplayUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		5C5E3652274AD3BE001F5248 /* WrongViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WrongViewController.swift; sourceTree = "<group>"; };
+		5C5E3654274AD3D2001F5248 /* CorrectViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CorrectViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +83,7 @@
 		5C5E3616274AD292001F5248 = {
 			isa = PBXGroup;
 			children = (
+				5C5E3654274AD3D2001F5248 /* CorrectViewController.swift */,
 				5C5E3621274AD292001F5248 /* PassAndDisplay */,
 				5C5E3638274AD298001F5248 /* PassAndDisplayTests */,
 				5C5E3642274AD298001F5248 /* PassAndDisplayUITests */,
@@ -106,6 +111,7 @@
 				5C5E362B274AD297001F5248 /* Assets.xcassets */,
 				5C5E362D274AD297001F5248 /* LaunchScreen.storyboard */,
 				5C5E3630274AD297001F5248 /* Info.plist */,
+				5C5E3652274AD3BE001F5248 /* WrongViewController.swift */,
 			);
 			path = PassAndDisplay;
 			sourceTree = "<group>";
@@ -258,9 +264,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5C5E3653274AD3BE001F5248 /* WrongViewController.swift in Sources */,
 				5C5E3627274AD292001F5248 /* ViewController.swift in Sources */,
 				5C5E3623274AD292001F5248 /* AppDelegate.swift in Sources */,
 				5C5E3625274AD292001F5248 /* SceneDelegate.swift in Sources */,
+				5C5E3655274AD3D2001F5248 /* CorrectViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
