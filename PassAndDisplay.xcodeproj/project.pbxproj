@@ -83,7 +83,6 @@
 		5C5E3616274AD292001F5248 = {
 			isa = PBXGroup;
 			children = (
-				5C5E3654274AD3D2001F5248 /* CorrectViewController.swift */,
 				5C5E3621274AD292001F5248 /* PassAndDisplay */,
 				5C5E3638274AD298001F5248 /* PassAndDisplayTests */,
 				5C5E3642274AD298001F5248 /* PassAndDisplayUITests */,
@@ -107,11 +106,12 @@
 				5C5E3622274AD292001F5248 /* AppDelegate.swift */,
 				5C5E3624274AD292001F5248 /* SceneDelegate.swift */,
 				5C5E3626274AD292001F5248 /* ViewController.swift */,
+				5C5E3654274AD3D2001F5248 /* CorrectViewController.swift */,
+				5C5E3652274AD3BE001F5248 /* WrongViewController.swift */,
 				5C5E3628274AD292001F5248 /* Main.storyboard */,
 				5C5E362B274AD297001F5248 /* Assets.xcassets */,
 				5C5E362D274AD297001F5248 /* LaunchScreen.storyboard */,
 				5C5E3630274AD297001F5248 /* Info.plist */,
-				5C5E3652274AD3BE001F5248 /* WrongViewController.swift */,
 			);
 			path = PassAndDisplay;
 			sourceTree = "<group>";
